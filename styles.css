@@ -1,0 +1,36 @@
+header {
+    padding: 30px;
+}
+
+header h1{
+    font-family: "Oswald", sans-serif ;
+    font-weight: 500;
+    font-size: 36pt;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.streaming-apps-grid {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.streaming-app {
+    max-width: 400px;
+    max-height: 220px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.streaming-app img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
